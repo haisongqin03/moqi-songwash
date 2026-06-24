@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}登录 - 墨栖洗歌平台{% endblock %}
+{% block content %}
+<div class="auth-form">
+    <div class="card">
+        <h2>登录</h2>
+        <form method="POST">
+            <div class="form-group">
+                <label>用户名</label>
+                <input type="text" name="username" required placeholder="输入用户名">
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" name="password" required placeholder="输入密码">
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%">登录</button>
+        </form>
+        <div class="auth-link">还没有账号？<a href="{{ url_for('register') }}">注册</a></div>
+    </div>
+</div>
+{% endblock %}

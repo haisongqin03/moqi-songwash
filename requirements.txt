@@ -1,0 +1,3 @@
+# 墨栖文创-REAPER洗歌工具包
+# 零外部依赖 — 仅使用 Python 3 标准库
+# http.server, sqlite3, json, hashlib, re, uuid, datetime, pathlib
